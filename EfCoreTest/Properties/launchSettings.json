@@ -2,7 +2,7 @@
   "profiles": {
     "EfCoreTest": {
       "commandName": "Project",
-      "commandLineArgs": "update"
+      "commandLineArgs": "install"
     }
   }
 }

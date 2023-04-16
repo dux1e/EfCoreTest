@@ -8,12 +8,12 @@ public class Program
         {
             using (DataAccessContext context = new DataAccessContext())
             {
-                Configure(context);
+                Install(context);
             }
         }
     }
 
-    private static void Configure(DataAccessContext dbContext)
+    private static void Install(DataAccessContext dbContext)
     {
         dbContext.Database.EnsureCreated();
     }
